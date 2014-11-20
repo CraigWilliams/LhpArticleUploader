@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118DA39E16D1586A0051914F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118DA39D16D1586A0051914F /* Cocoa.framework */; };
+		118DA3A916D1586A0051914F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3A716D1586A0051914F /* InfoPlist.strings */; };
+		118DA3AB16D1586A0051914F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118DA3AA16D1586A0051914F /* main.m */; };
+		118DA3B016D1586A0051914F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3AE16D1586A0051914F /* MainMenu.xib */; };
+		118DA3B316D1586A0051914F /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3B216D1586A0051914F /* rb_main.rb */; };
+		118DA3B516D1586A0051914F /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3B416D1586A0051914F /* AppDelegate.rb */; };
+		118DA3BF16D158800051914F /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118DA3BE16D158800051914F /* MacRuby.framework */; };
+		118DA3C316D15ACB0051914F /* MainWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3C216D15ACB0051914F /* MainWindowController.rb */; };
+		118DA3C516D15D630051914F /* Applescript.rb in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3C416D15D630051914F /* Applescript.rb */; };
+		11C03B6816D18652001D5BD1 /* Alert.rb in Resources */ = {isa = PBXBuildFile; fileRef = 11C03B6716D18652001D5BD1 /* Alert.rb */; };
+		11C03B6A16D188DA001D5BD1 /* Request.rb in Resources */ = {isa = PBXBuildFile; fileRef = 11C03B6916D188DA001D5BD1 /* Request.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118DA3A216D1586A0051914F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118DA39216D1586A0051914F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118DA39916D1586A0051914F;
+			remoteInfo = LhpArticleUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118DA39A16D1586A0051914F /* LhpArticleUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LhpArticleUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DA39D16D1586A0051914F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		118DA39F16D1586A0051914F /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		118DA3A616D1586A0051914F /* LhpArticleUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LhpArticleUploader-Info.plist"; sourceTree = "<group>"; };
+		118DA3A816D1586A0051914F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		118DA3AA16D1586A0051914F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		118DA3AC16D1586A0051914F /* LhpArticleUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LhpArticleUploader-Prefix.pch"; sourceTree = "<group>"; };
+		118DA3AF16D1586A0051914F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		118DA3B216D1586A0051914F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		118DA3B416D1586A0051914F /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		118DA3BE16D158800051914F /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../../../Library/Frameworks/MacRuby.framework; sourceTree = "<group>"; };
+		118DA3C216D15ACB0051914F /* MainWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MainWindowController.rb; sourceTree = "<group>"; };
+		118DA3C416D15D630051914F /* Applescript.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Applescript.rb; sourceTree = "<group>"; };
+		11C03B6716D18652001D5BD1 /* Alert.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Alert.rb; sourceTree = "<group>"; };
+		11C03B6916D188DA001D5BD1 /* Request.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Request.rb; sourceTree = "<group>"; };
+		11C03B6C16D1A0FB001D5BD1 /* Icon */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118DA39716D1586A0051914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118DA3BF16D158800051914F /* MacRuby.framework in Frameworks */,
+				118DA39E16D1586A0051914F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118DA39116D1586A0051914F = {
+			isa = PBXGroup;
+			children = (
+				11C03B6B16D1A0FB001D5BD1 /* Bubo */,
+				118DA3BE16D158800051914F /* MacRuby.framework */,
+				118DA3A416D1586A0051914F /* LhpArticleUploader */,
+				118DA39C16D1586A0051914F /* Frameworks */,
+				118DA39B16D1586A0051914F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118DA39B16D1586A0051914F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118DA39A16D1586A0051914F /* LhpArticleUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118DA39C16D1586A0051914F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118DA39D16D1586A0051914F /* Cocoa.framework */,
+				118DA39F16D1586A0051914F /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118DA3A416D1586A0051914F /* LhpArticleUploader */ = {
+			isa = PBXGroup;
+			children = (
+				118DA3B416D1586A0051914F /* AppDelegate.rb */,
+				118DA3C216D15ACB0051914F /* MainWindowController.rb */,
+				118DA3AD16D1586A0051914F /* Resources */,
+				118DA3B116D1586A0051914F /* Other Sources */,
+				118DA3A516D1586A0051914F /* Supporting Files */,
+				118DA3C416D15D630051914F /* Applescript.rb */,
+				11C03B6716D18652001D5BD1 /* Alert.rb */,
+				11C03B6916D188DA001D5BD1 /* Request.rb */,
+			);
+			path = LhpArticleUploader;
+			sourceTree = "<group>";
+		};
+		118DA3A516D1586A0051914F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				118DA3A616D1586A0051914F /* LhpArticleUploader-Info.plist */,
+				118DA3A716D1586A0051914F /* InfoPlist.strings */,
+				118DA3AA16D1586A0051914F /* main.m */,
+				118DA3AC16D1586A0051914F /* LhpArticleUploader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		118DA3AD16D1586A0051914F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				118DA3AE16D1586A0051914F /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		118DA3B116D1586A0051914F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				118DA3B216D1586A0051914F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		11C03B6B16D1A0FB001D5BD1 /* Bubo */ = {
+			isa = PBXGroup;
+			children = (
+				11C03B6C16D1A0FB001D5BD1 /* Icon */,
+			);
+			path = Bubo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		118DA3A116D1586A0051914F /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 118DA3BB16D1586A0051914F /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				118DA3A316D1586A0051914F /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		118DA39916D1586A0051914F /* LhpArticleUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118DA3B816D1586A0051914F /* Build configuration list for PBXNativeTarget "LhpArticleUploader" */;
+			buildPhases = (
+				118DA39616D1586A0051914F /* Sources */,
+				118DA39716D1586A0051914F /* Frameworks */,
+				118DA39816D1586A0051914F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LhpArticleUploader;
+			productName = LhpArticleUploader;
+			productReference = 118DA39A16D1586A0051914F /* LhpArticleUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118DA39216D1586A0051914F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Craig Williams";
+			};
+			buildConfigurationList = 118DA39516D1586A0051914F /* Build configuration list for PBXProject "LhpArticleUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 118DA39116D1586A0051914F;
+			productRefGroup = 118DA39B16D1586A0051914F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118DA39916D1586A0051914F /* LhpArticleUploader */,
+				118DA3A116D1586A0051914F /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118DA39816D1586A0051914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118DA3A916D1586A0051914F /* InfoPlist.strings in Resources */,
+				118DA3B016D1586A0051914F /* MainMenu.xib in Resources */,
+				118DA3B316D1586A0051914F /* rb_main.rb in Resources */,
+				118DA3B516D1586A0051914F /* AppDelegate.rb in Resources */,
+				118DA3C316D15ACB0051914F /* MainWindowController.rb in Resources */,
+				118DA3C516D15D630051914F /* Applescript.rb in Resources */,
+				11C03B6816D18652001D5BD1 /* Alert.rb in Resources */,
+				11C03B6A16D188DA001D5BD1 /* Request.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118DA39616D1586A0051914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118DA3AB16D1586A0051914F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118DA3A316D1586A0051914F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118DA39916D1586A0051914F /* LhpArticleUploader */;
+			targetProxy = 118DA3A216D1586A0051914F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		118DA3A716D1586A0051914F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118DA3A816D1586A0051914F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		118DA3AE16D1586A0051914F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118DA3AF16D1586A0051914F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		118DA3B616D1586A0051914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		118DA3B716D1586A0051914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		118DA3B916D1586A0051914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LhpArticleUploader/LhpArticleUploader-Prefix.pch";
+				INFOPLIST_FILE = "LhpArticleUploader/LhpArticleUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		118DA3BA16D1586A0051914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LhpArticleUploader/LhpArticleUploader-Prefix.pch";
+				INFOPLIST_FILE = "LhpArticleUploader/LhpArticleUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		118DA3BC16D1586A0051914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		118DA3BD16D1586A0051914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118DA39516D1586A0051914F /* Build configuration list for PBXProject "LhpArticleUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118DA3B616D1586A0051914F /* Debug */,
+				118DA3B716D1586A0051914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118DA3B816D1586A0051914F /* Build configuration list for PBXNativeTarget "LhpArticleUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118DA3B916D1586A0051914F /* Debug */,
+				118DA3BA16D1586A0051914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118DA3BB16D1586A0051914F /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118DA3BC16D1586A0051914F /* Debug */,
+				118DA3BD16D1586A0051914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118DA39216D1586A0051914F /* Project object */;
+}
